@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+section {
+  text-align: center;
+}
+#welcome-section {
+  height: 100vh; 
+}
+#projects, #profile {
+  width: 100vw;
+  padding-bottom: 10%;
+}
+.header-content {
+  font: Raleway;
+  font-size: 35px;
+  padding-top: 30px;
+}
+.content {
+  font: Poppins;
+  font-size: 20px;
+}
+#welcome-section {
+  background-color: #0F1008;
+}
+#welcome-header {
+  color: #2B9720;
+  padding-top: 200px;
+}
+#welcome-content {
+  color: #288A1E;
+}
+#projects {
+  background-color: #FF5E42;
+}
+.project-css {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.project-tile {
+  width: 33%;
+  margin: 20px;
+}
+@media (max-width: 1000px) {
+  .project-tile {
+    width: 50%;
+  }
+}
+.project-tile a {
+  position: relative;
+  background-color: #FFB5A9;
+  padding-bottom: 70px;
+  font: Poppins;
+  font-size: 16px;
+}
+.projekt-tile p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right;
+  width: 100%;
+}
+.project-image {
+  width: 100%
+}
+#profile {
+  background-color: #FFF64F;
+}
+#profile-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.profile-ref {
+  padding: 100px 40px 0px 40px;
+}
+.profile-ref p {
+  color: black;
+}
+.link-img {
+  width: 60px;
+}
+#navbar {
+  background-color: #F93943;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px; 
+}
+#navbar a {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
